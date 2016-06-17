@@ -13,7 +13,7 @@ DROP TABLE IF EXISTS `db_version`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `db_version` (
-  `version` varchar(120) DEFAULT,
+  `version` varchar(120) NOT NULL,
   `creature_ai_version` varchar(120) DEFAULT NULL,
   `required_z2483_xxxxx_02_mangos_string` bit(1) DEFAULT NULL,
   PRIMARY KEY(`version`)
