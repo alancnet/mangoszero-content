@@ -18,7 +18,7 @@ CREATE TABLE `spell_threat` (
   `multiplier` float NOT NULL DEFAULT '1' COMMENT 'threat multiplier for damage/healing',
   `ap_bonus` float NOT NULL DEFAULT '0' COMMENT 'additional threat bonus from attack power',
   PRIMARY KEY (`entry`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=FIXED;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 ;
 /*!40101 SET character_set_client = @saved_cs_client */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 

@@ -21,7 +21,7 @@ CREATE TABLE `fishing_loot_template` (
   `maxcount` tinyint(3) unsigned NOT NULL DEFAULT '1',
   `condition_id` mediumint(8) unsigned NOT NULL DEFAULT '0',
   PRIMARY KEY (`entry`,`item`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=FIXED COMMENT='Loot System';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8  COMMENT='Loot System';
 /*!40101 SET character_set_client = @saved_cs_client */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 

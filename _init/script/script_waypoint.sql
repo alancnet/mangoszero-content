@@ -21,7 +21,7 @@ CREATE TABLE `script_waypoint` (
   `waittime` int(10) unsigned NOT NULL DEFAULT '0' COMMENT 'wait time in milliseconds',
   `point_comment` text,
   PRIMARY KEY (`entry`,`pointid`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=FIXED COMMENT='Script Creature waypoints';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8  COMMENT='Script Creature waypoints';
 /*!40101 SET character_set_client = @saved_cs_client */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 

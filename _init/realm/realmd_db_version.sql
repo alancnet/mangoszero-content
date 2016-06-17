@@ -14,7 +14,7 @@ DROP TABLE IF EXISTS `realmd_db_version`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `realmd_db_version` (
   `required_10008_01_realmd_realmd_db_version` bit(1) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=FIXED COMMENT='Last applied update';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8  COMMENT='Last applied update';
 /*!40101 SET character_set_client = @saved_cs_client */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 

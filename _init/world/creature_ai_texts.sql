@@ -29,7 +29,7 @@ CREATE TABLE `creature_ai_texts` (
   `emote` smallint(5) unsigned NOT NULL DEFAULT '0',
   `comment` text,
   PRIMARY KEY (`entry`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=FIXED COMMENT='Script Texts';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8  COMMENT='Script Texts';
 /*!40101 SET character_set_client = @saved_cs_client */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 

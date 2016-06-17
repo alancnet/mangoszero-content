@@ -27,7 +27,7 @@ CREATE TABLE `game_weather` (
   `winter_snow_chance` tinyint(3) unsigned NOT NULL DEFAULT '25',
   `winter_storm_chance` tinyint(3) unsigned NOT NULL DEFAULT '25',
   PRIMARY KEY (`zone`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=FIXED COMMENT='Weather System';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8  COMMENT='Weather System';
 /*!40101 SET character_set_client = @saved_cs_client */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 

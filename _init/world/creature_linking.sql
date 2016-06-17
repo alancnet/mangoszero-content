@@ -17,7 +17,7 @@ CREATE TABLE `creature_linking` (
   `master_guid` int(10) unsigned NOT NULL COMMENT 'master to trigger events',
   `flag` mediumint(8) unsigned NOT NULL COMMENT 'flag - describing what should happen when',
   PRIMARY KEY (`guid`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=FIXED COMMENT='Creature Linking System';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8  COMMENT='Creature Linking System';
 /*!40101 SET character_set_client = @saved_cs_client */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 

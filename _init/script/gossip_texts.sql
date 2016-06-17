@@ -25,7 +25,7 @@ CREATE TABLE `gossip_texts` (
   `content_loc8` text,
   `comment` text,
   PRIMARY KEY (`entry`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=FIXED COMMENT='Gossip Texts';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8  COMMENT='Gossip Texts';
 /*!40101 SET character_set_client = @saved_cs_client */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 

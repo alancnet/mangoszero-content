@@ -17,7 +17,7 @@ CREATE TABLE `db_version` (
   `creature_ai_version` varchar(120) DEFAULT NULL,
   `required_z2483_xxxxx_02_mangos_string` bit(1) DEFAULT NULL,
   PRIMARY KEY(`version`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=FIXED COMMENT='Used DB version notes';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8  COMMENT='Used DB version notes';
 /*!40101 SET character_set_client = @saved_cs_client */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
